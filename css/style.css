@@ -89,7 +89,7 @@ header
   background: transparent;}
  
 nav
-{ width: 940px;
+{ width: 74%;
   height: 50px;}  
   
 #menubar
@@ -143,9 +143,12 @@ ul#nav li a
   color: #FFF;
   text-decoration: none;} 
   
-ul#nav li.current a, ul#nav li:hover a
-{ color: #000;
+ul#nav li.current a
+{ color: #FF8040;
   text-shadow: 0px 1px 0px #535353;}
+ ul#nav li:hover a
+{ color: #008000;
+  text-shadow: 0px 1px 0px #535353;} 
 
 #site_content
 { width: 940px;
