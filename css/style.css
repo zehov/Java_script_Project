@@ -158,6 +158,7 @@ ul#nav li.current a
 .sidebar_container
 { float: right;
   width: 240px;
+  height: 850px;
   padding-left: 20px;
   background: transparent url(../images/transparent.png) repeat;}
 
@@ -196,8 +197,8 @@ ul#nav li.current a
  
 .content_image
 { float: left; 
-  width: 150px;
-  height: 150px;
+  width: 255px;
+  height: 210px;
   margin: 0 20px 10px 0;}
   
 .content_container
@@ -322,7 +323,7 @@ ul img {
  
 #slideshow-caption {
   width: 680px;
-  height: 38px;
+  height: 50px;
   position: absolute;
   bottom: 0;
   left: 0; 

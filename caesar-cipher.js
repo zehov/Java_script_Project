@@ -21,7 +21,7 @@ function doCrypt(isDecrypt) {
 
 
  
-function caesarShift(text, shift) {
+function caesarShift1(text, shift) {
 	var result = "";
 	for (var i = 0; i < text.length; i++) {
 		var c = text.charCodeAt(i);
@@ -31,7 +31,7 @@ function caesarShift(text, shift) {
 	}
 	return result;
 }
-console.log(caesarShift("Здравей!",2));
+console.log(caesarShift1("proba proba",3));
 console.log((26-6)%26);
 // in BG
 function caesarShift(text, shift) {
@@ -47,3 +47,20 @@ function caesarShift(text, shift) {
 console.log(caesarShift("Йжтвдзл!",-2));
 
 console.log((32-6)%32);
+
+function caesar(text, shift) {
+    	console.log(text+'11111');
+    	console.log(shift+'-----');
+	var result = "";
+	for (var i = 0; i < text.length; i++) {
+		var c = text.charCodeAt(i);
+		if      (65 <= c && c <=  90) result += String.fromCharCode((c - 65 + shift) % 26 + 65);  // Uppercase
+		else if (97 <= c && c <= 122) result += String.fromCharCode((c - 97 + shift) % 26 + 97);  // Lowercase
+		else                          result += text.charAt(i);  // Copy
+	}
+	var rad=result;
+	console.log(rad);
+	return result;
+	
+}
+console.log(caesar("an",3));
