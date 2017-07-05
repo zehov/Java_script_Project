@@ -10,7 +10,6 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script> 
-  <script type="text/javascript" src="js/test.js"></script>
 </head>
 
 <body>
@@ -74,53 +73,14 @@
           </div><!--close sidebar_item--> 
         </div><!--close sidebar-->
        </div><!--close sidebar_container--> 
-      <div id="content" class="page">
-      <div class="title">
-          <h2>Encryption</h2>
-          <span class="byline">Enter some text to encrypt, and shift :</span> 
-      </div>
-<textarea id="text_area" rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea>
-     <p> <label for="shift"> 
-       SHIFT:
-     </label> 
-      <input id="shift" type="number" name="shift" placeholder="Enter some shift as number..."  min="1" max="26" required>
-  </p>
-  <span id="btn">
-    <button id="btn_go" type="button" class="button" onclick="doCrypt()" >Coding</button>
-  </span>
-  ​<p id="mesage"></p>
-  <p id = "code"> </p> 
-  <!--   end code -->
-  <!-- sending email -->
-​<form onsubmit="sendMail(); return false">
-  E-mail: <input type="email" id="myEmail" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-  <input type="submit" value="Send chipher">
-</form>
-
-<!-- start decoding -->
-    <div class="title">
-    <h2>Decryption</h2>
-    <span class="byline">Enter some text to decrypt, and shift :</span> 
-    </div>
-    <textarea id="text_area1" rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea>
-     <p> <label for="shift"> 
-       SHIFT:
-     </label> 
-      <input id="shift1" type="number" name="shift" placeholder="Enter some shift as number..."  min="1" max="26" required>
-  </p>
- 
-<!-- </form>  -->
-  <span id="btn">
-    <button id="btn_go" type="button" class="button" onclick="doCrypt1()" >Decoding</button>
-  </span>
-  ​<p id="mesage1"></p>
-  <p id = "decode"></p> 
-
-
- </div><!--close content-->  
-   
+  
+    <div id="content">
+        <div class="content_item">
+      <h1>content</h1> 
+        
+      </div><!--close content_imagetext-->            
+    </div><!--close content_item-->
+      </div><!--close content-->   
   
   </div><!--close site_content-->   
 <!--  ............ footer................. -->
